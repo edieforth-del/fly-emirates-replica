@@ -8,3 +8,13 @@ nav {
     display: flex;
     justify-content: ;
 }
+
+.leftNav {
+    display: flex;
+}
+.leftNav ul {
+    display: flex;
+}
+.rightNav {
+    display: flex;
+}
