@@ -4,9 +4,18 @@ padding:0;
 box-sizing: border-box;
 }
 
+.header {
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;  
+    padding: 0 150px;
+}
+
 nav {
     display: flex;
-    justify-content: ;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 150px;
 }
 
 .leftNav {
@@ -16,5 +25,8 @@ nav {
     display: flex;
 }
 .rightNav {
+    display: flex;
+}
+.rightNav ul {
     display: flex;
 }
