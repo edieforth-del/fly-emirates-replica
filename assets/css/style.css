@@ -49,8 +49,7 @@ nav a {
     list-style: none;
     text-decoration: none;
 }
-
-
+ 
 .rightNav {
     display: flex;
     justify-content: space-between;
@@ -63,6 +62,29 @@ nav a {
     list-style: none;
     gap: 20px;
 }
+.carousel{
+    height: 60vh;
+    width: 100%;
+}
+.carouselImage {
+    height: 100%;
+    width: 100%;
+}
 .floatingLogo {
     float: right;
+}
+.recentArticles {
+    padding: 150px 0 0 150px;
+    position: absolute;
+}
+.articleButton {
+    margin: 50px 0 0 150px;
+    padding: 7px;
+    background-color:#ca1920;
+    color: white;
+    border: none;
+    border-radius: 3px; 
+}
+.emiratesPass {
+    font-family:cursive;
 }
