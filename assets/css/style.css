@@ -65,17 +65,19 @@ nav a {
 .carousel{
     height: 60vh;
     width: 100%;
+    position: relative;
 }
 .carouselImage {
     height: 100%;
     width: 100%;
 }
 .floatingLogo {
-    float: right;
+    position: absolute;
 }
 .recentArticles {
     padding: 150px 0 0 150px;
     position: absolute;
+    color: white;
 }
 .articleButton {
     margin: 50px 0 0 150px;
