@@ -109,19 +109,38 @@ nav a {
     margin: 0 150px 0 150px;
     position: relative;
     background-color: aliceblue;
+    height: 20vh;
 }
 .buttonGroup {
     display: flex;
-    margin: 10px ;
+    margin: 0 0 0 20px;
+    border-radius: 3px;
 }
 .buttonGroup button {
-    border-radius: 0;
     padding: 5px 20px;
+    margin: 15px 0 0 0;
+    border: solid gray;
 }
 .quickAccessLink {
+    color: #ca1920;
+    left: 650px;
     position: absolute;
-    left: 600px;
 }
 .quickAccessForm {
+    margin: 20px;
     position: absolute;
+}
+form {
+    input {
+        padding: 15px;
+        width: 350px;
+        margin: 5px 20px 5px 0;
+    }
+    button {
+        padding: 15px 10px;
+        width: 335px;
+        background-color: #ca1920;
+        color: white;
+        border: none;
+    }
 }
