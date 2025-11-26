@@ -92,11 +92,15 @@ nav a {
     margin: 0 150px 0 150px;
     position: absolute;
     list-style-type: none;
+    bottom: 0;
 }
 .carouselList a {
     text-decoration: none;
 }
 .carouselList li {
     padding: 20px;
-    width:250px;
+    width:280px;
+    border: 1px solid white;
+    text-align: center;
+    background-color: aliceblue;
 }
