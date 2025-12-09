@@ -21,6 +21,7 @@ nav {
     padding: 0 150px;
     background-color: #333333;
     height: 50px;
+    position: relative;
 }
 nav a { 
     text-decoration: none;
@@ -30,10 +31,12 @@ nav a {
     height: 50px;
     background-color:#ca1920;
     margin: 0 5px 0 0 ;
+    position: fixed;
 }
 .logoLink img {
     padding: 50px 0 0 0;
     width: 100px;
+    /* position: fixed; */
 }
 
 .leftNav {
@@ -135,4 +138,20 @@ nav a {
     padding: 15px;
     width: 340px;
     margin: 0 5px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 150px;
+}
+section ul {
+    display: flex;
+    list-style-type: none;
+    border: #333333 solid 1px;
+}
+section ul li {
+    text-align: center;
+    padding: 20px;
+    border-right: #333333 solid 1px;
 }
