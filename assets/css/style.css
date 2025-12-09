@@ -22,7 +22,7 @@ nav {
     background-color: #333333;
     height: 50px;
 }
-nav a {
+nav a { 
     text-decoration: none;
     color: white;
 }
@@ -106,10 +106,10 @@ nav a {
     background-color: aliceblue;
 }
 .quickAccess {
-    margin: 0 150px 0 150px;
+    margin: 0 135px 0 150px;
     position: relative;
     background-color: aliceblue;
-    height: 20vh;
+    height: 20vh; 
 }
 .buttonGroup {
     display: flex;
@@ -126,21 +126,13 @@ nav a {
     left: 650px;
     position: absolute;
 }
-.quickAccessForm {
-    margin: 20px;
-    position: absolute;
+.quickAccessForm input{
+    padding: 15px;
+    margin: 40px 10px 0 20px;
+    width: 350px;
 }
-form {
-    input {
-        padding: 15px;
-        width: 350px;
-        margin: 5px 20px 5px 0;
-    }
-    button {
-        padding: 15px 10px;
-        width: 335px;
-        background-color: #ca1920;
-        color: white;
-        border: none;
-    }
+.quickAccessForm button {
+    padding: 15px;
+    width: 340px;
+    margin: 0 5px;
 }
