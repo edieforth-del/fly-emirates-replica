@@ -21,7 +21,6 @@ nav {
     padding: 0 150px;
     background-color: #333333;
     height: 50px;
-    position: relative;
 }
 nav a { 
     text-decoration: none;
@@ -31,12 +30,10 @@ nav a {
     height: 50px;
     background-color:#ca1920;
     margin: 0 5px 0 0 ;
-    position: fixed;
 }
 .logoLink img {
     padding: 50px 0 0 0;
     width: 100px;
-    /* position: fixed; */
 }
 
 .leftNav {
@@ -66,7 +63,7 @@ nav a {
     gap: 20px;
 }
 .carousel{
-    height: 60vh;
+    height: 62vh;
     width: 100%;
     position: relative;
 }
@@ -112,12 +109,11 @@ nav a {
     margin: 0 135px 0 150px;
     position: relative;
     background-color: aliceblue;
-    height: 20vh; 
+    height: 24.5vh; 
 }
 .buttonGroup {
     display: flex;
     margin: 0 0 0 20px;
-    border-radius: 3px;
 }
 .buttonGroup button {
     padding: 5px 20px;
@@ -126,18 +122,21 @@ nav a {
 }
 .quickAccessLink {
     color: #ca1920;
+    top: 60px;
     left: 650px;
     position: absolute;
 }
 .quickAccessForm input{
     padding: 15px;
-    margin: 40px 10px 0 20px;
+    margin: 60px 10px 0 20px;
     width: 350px;
+    height: 65px;
 }
 .quickAccessForm button {
     padding: 15px;
     width: 340px;
     margin: 0 5px;
+    height: 65px;
 }
 section {
     display: flex;
