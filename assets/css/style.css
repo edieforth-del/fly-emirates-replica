@@ -93,7 +93,7 @@ nav a {
     position: absolute;
     list-style-type: none;
     bottom: 0;
-    background-color: pink;
+    background-color:#ffffff;
 }
 .carouselList a {
     text-decoration: none;
@@ -103,13 +103,15 @@ nav a {
     width:285px;
     border: 1px solid white;
     text-align: center;
-    background-color: aliceblue;
+    background-color: #ffffff;
+    color: #666666;
 }
 .quickAccess {
     margin: 0 135px 0 150px;
     position: relative;
-    background-color: aliceblue;
+    background-color: #ffffff;
     height: 24.5vh; 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 .buttonGroup {
     display: flex;
@@ -137,20 +139,24 @@ nav a {
     width: 340px;
     margin: 0 5px;
     height: 65px;
+    background-color: #ca1920;
+    color: white;
+    border: none;
 }
 section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 150px;
 }
 section ul {
     display: flex;
     list-style-type: none;
-    border: #333333 solid 1px;
+    width: 1000px;
+    padding: 10px;
+    margin: 30px 150px;
 }
 section ul li {
     text-align: center;
-    padding: 20px;
-    border-right: #333333 solid 1px;
+    padding: 30px 45px;
+    border: #333333 solid 0.5px;
 }
