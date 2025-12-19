@@ -144,15 +144,18 @@ nav a {
     border: none;
 }
 section {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 section ul {
+    position: absolute;
+    left: 0;
+    top: 40px;
     display: flex;
     list-style-type: none;
-    width: 1000px;
-    padding: 10px;
+    border: #333333 solid 0.5px;
     margin: 30px 150px;
 }
 section ul li {
