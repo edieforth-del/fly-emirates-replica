@@ -198,3 +198,28 @@ section ul li {
 .subtext {
     text-align: center;
 }
+.sitemap {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sitemap span {
+    
+}
+aside {
+    position: relative;
+    top: 200px;
+    width: 100%;
+}
+aside img {
+    width: 100%;
+    height: 470px;
+}
+aside img, aside span, aside button, aside h1, aside p {
+    position: absolute;
+}
