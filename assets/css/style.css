@@ -189,10 +189,11 @@ section ul li {
     width: 347px;
     height: 300px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 .travelCard img {
     width: 100%;
-    height: 160px;
+    height: 140px;
 }
 .subtext {
     text-align: center;
